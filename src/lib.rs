@@ -7,7 +7,6 @@ use near_sdk::collections::{LookupMap, UnorderedSet};
 use near_sdk::json_types::{ValidAccountId, U64};
 use near_sdk::serde_json::json;
 use near_sdk::{env, log, near_bindgen, AccountId, Balance, Promise};
-
 mod fungible_token_handler;
 
 near_sdk::setup_alloc!();
